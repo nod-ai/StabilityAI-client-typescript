@@ -1,0 +1,29 @@
+{
+  "name": "stabilityai-client-typescript",
+  "version": "2.0.0-beta",
+  "description": "A TypeScript client to consume the StabilityAI API",
+  "keywords": [
+    "client",
+    "typescript",
+    "sdk",
+    "stability",
+    "ai",
+    "stable",
+    "diffusion"
+  ],
+  "homepage": "https://github.com/nod-ai/StabilityAI-client-typescript#readme",
+  "bugs": {
+    "url": "https://github.com/nod-ai/StabilityAI-client-typescript/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nod-ai/StabilityAI-client-typescript.git"
+  },
+  "license": "Apache-2.0",
+  "author": "Advanced Micro Devices, Inc.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
