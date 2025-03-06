@@ -1,0 +1,21 @@
+# FetchBalanceRequest
+
+## Example Usage
+
+```typescript
+import { FetchBalanceRequest } from "stabilityai-client-typescript/models/operations";
+
+let value: FetchBalanceRequest = {
+  organization: "org-123456",
+  stabilityClientID: "my-great-plugin",
+  stabilityClientVersion: "1.2.1",
+};
+```
+
+## Fields
+
+| Field                                                                                                                                              | Type                                                                                                                                               | Required                                                                                                                                           | Description                                                                                                                                        | Example                                                                                                                                            |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `organization`                                                                                                                                     | *string*                                                                                                                                           | :heavy_minus_sign:                                                                                                                                 | Allows for requests to be scoped to an organization other than the user's default.  If not provided, the user's default organization will be used. | org-123456                                                                                                                                         |
+| `stabilityClientID`                                                                                                                                | *string*                                                                                                                                           | :heavy_minus_sign:                                                                                                                                 | Used to identify the source of requests, such as the client application or sub-organization. Optional, but recommended for organizational clarity. | my-great-plugin                                                                                                                                    |
+| `stabilityClientVersion`                                                                                                                           | *string*                                                                                                                                           | :heavy_minus_sign:                                                                                                                                 | Used to identify the version of the application or service making the requests. Optional, but recommended for organizational clarity.              | 1.2.1                                                                                                                                              |
