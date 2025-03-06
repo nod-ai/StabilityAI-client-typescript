@@ -43,9 +43,6 @@
             "$ref": "#/components/parameters/engineID"
           },
           {
-            "$ref": "#/components/parameters/accept"
-          },
-          {
             "$ref": "#/components/parameters/organization"
           },
           {
@@ -136,9 +133,6 @@
         "parameters": [
           {
             "$ref": "#/components/parameters/engineID"
-          },
-          {
-            "$ref": "#/components/parameters/accept"
           },
           {
             "$ref": "#/components/parameters/organization"
@@ -255,9 +249,6 @@
             "schema": {
               "type": "string"
             }
-          },
-          {
-            "$ref": "#/components/parameters/accept"
           },
           {
             "$ref": "#/components/parameters/organization"
@@ -1210,20 +1201,6 @@
         "in": "header",
         "name": "Stability-Client-Version",
         "schema": {
-          "type": "string"
-        }
-      },
-      "accept": {
-        "allowEmptyValue": false,
-        "in": "header",
-        "name": "Accept",
-        "description": "The format of the response.  Leave blank for JSON, or set to 'image/png' for a PNG image.",
-        "schema": {
-          "default": "application/json",
-          "enum": [
-            "application/json",
-            "image/png"
-          ],
           "type": "string"
         }
       }
