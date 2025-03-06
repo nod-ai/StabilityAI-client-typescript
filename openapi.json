@@ -17,15 +17,15 @@
   ],
   "tags": [
     {
-      "name": "User",
+      "name": "Version1.User",
       "description": "Manage your Stability account, and view account/organization balances."
     },
     {
-      "name": "Engines",
+      "name": "Version1.Engines",
       "description": "Enumerate engines that work with 'Version 1' REST API endpoints."
     },
     {
-      "name": "SDXL 1.0 & SD1.6",
+      "name": "Version1.Image",
       "description": "Generate images using SDXL 1.0 or SD1.6."
     }
   ],
@@ -36,7 +36,7 @@
         "operationId": "textToImage",
         "summary": "Text-to-image",
         "tags": [
-          "SDXL 1.0 & SD1.6"
+          "Version1.Image"
         ],
         "parameters": [
           {
@@ -128,7 +128,7 @@
         "operationId": "imageToImage",
         "summary": "Image-to-image with prompt",
         "tags": [
-          "SDXL 1.0 & SD1.6"
+          "Version1.Image"
         ],
         "parameters": [
           {
@@ -238,7 +238,7 @@
         "operationId": "masking",
         "summary": "Image-to-image with a mask",
         "tags": [
-          "SDXL 1.0 & SD1.6"
+          "Version1.Image"
         ],
         "parameters": [
           {
@@ -362,7 +362,7 @@
         "operationId": "listEngines",
         "summary": "List engines",
         "tags": [
-          "Engines"
+          "Version1.Engines"
         ],
         "parameters": [
           {
@@ -425,7 +425,7 @@
         "operationId": "userAccount",
         "summary": "Account details",
         "tags": [
-          "User"
+          "Version1.User"
         ],
         "responses": {
           "200": {
@@ -477,7 +477,7 @@
         "operationId": "userBalance",
         "summary": "Account balance",
         "tags": [
-          "User"
+          "Version1.User"
         ],
         "parameters": [
           {
@@ -1368,9 +1368,9 @@
     {
       "name": "Version 1",
       "tags": [
-        "SDXL 1.0 & SD1.6",
-        "Engines",
-        "User"
+        "Version1.Image",
+        "Version1.Engines",
+        "Version1.User"
       ]
     }
   ]
