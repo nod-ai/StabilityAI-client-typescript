@@ -1208,7 +1208,6 @@
     "securitySchemes": {
       "STABILITY_API_KEY": {
         "type": "apiKey",
-        "scheme": "bearer",
         "name": "authorization",
         "in": "header",
         "description": "Use your [Stability API key](https://platform.stability.ai/account/keys) to authentication requests to this App."
